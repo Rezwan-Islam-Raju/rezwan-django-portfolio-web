@@ -1,0 +1,19 @@
+{% extends 'base.html' %}
+{% load static %}
+
+
+
+{% block title%}
+       Home 
+{% endblock%}
+
+
+
+{% block content %}
+  {% include 'components/hero.html' %}
+  {% include 'components/stats.html'%}
+  {% include 'components/whyWork.html' %}
+  {% include 'components/recenProjects.html' %}
+  {% include 'components/newsletter.html'   %}
+  
+{% endblock %}

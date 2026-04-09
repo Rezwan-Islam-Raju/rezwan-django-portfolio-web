@@ -1,0 +1,42 @@
+{% extends 'base.html' %}
+{% load static %}
+
+
+{% block title%}
+    Testimonial
+{% endblock%}
+
+
+
+
+{% block content %}
+    {% include 'components/clientSays.html' %}
+    
+{% endblock %}
+
+<div class="col-12 wow fadeIn col-md-6 col-lg-4 mb-4">
+            <div class="p-4 bg-light rounded">
+                <p class="lead text-muted mb-5">"Their innovative approach and commitment to quality delivered results..."</p>
+                <img class="img-fluid mb-3" src="{% static 'Img/new.avif' %}" alt="Client 4" style="width: 48px; height: 48px;">
+                <h4 class="fw-bold">Emily Carter</h4>
+                <p class="text-muted">Managing Director, Apex Solutions</p>
+            </div>
+        </div>
+
+        <div class="col-12 wow fadeIn col-md-6 col-lg-4 mb-4 mb-md-0">
+            <div class="p-4 bg-light rounded">
+                <p class="lead text-muted mb-5">"Their customer-first mindset and technical expertise have made a lasting impression..."</p>
+                <img class="img-fluid mb-3" src="{% static 'Img/new.avif' %}" alt="Client 5" style="width: 48px; height: 48px;">
+                <h4 class="fw-bold">Chris Wilson</h4>
+                <p class="text-muted">COO, BrightFuture</p>
+            </div>
+        </div>
+
+        <div class="col-12 wow fadeIn col-md-6 col-lg-4">
+            <div class="p-4 bg-light rounded">
+                <p class="lead text-muted mb-5">"The level of creativity and innovation they brought to our project was outstanding."</p>
+                <img class="img-fluid mb-3" src="{% static 'Img/new.avif' %}" alt="Client 6" style="width: 48px; height: 48px;">
+                <h4 class="fw-bold">Sarah Martinez</h4>
+                <p class="text-muted">Founder, Design Wave</p>
+            </div>
+        </div>
